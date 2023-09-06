@@ -12,7 +12,7 @@ const refs = {
 function onChangeInput(event) {
   refs.outputEl.textContent = event.currentTarget.value;
   if (refs.outputEl.textContent === "") {
-    refs.outputEl.textContent = "Anonimus";
+    refs.outputEl.textContent = "Anonymous";
   }
 }
 

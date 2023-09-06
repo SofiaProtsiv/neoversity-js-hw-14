@@ -29,10 +29,10 @@ const listOfImages = document.querySelector(".gallery");
 const gallaryMarkup = images
   .map(
     ({ url, alt }) =>
-      `<li class = "galleryItem">
-        <img src = "${url}" alt = "${alt}" class = "galleryImg"/>
+      `<li class="galleryItem">
+        <img src="${url}" alt="${alt}" class="galleryImg"/>
       </li>`
   )
   .join("");
-  
+
 listOfImages.insertAdjacentHTML("afterbegin", gallaryMarkup);

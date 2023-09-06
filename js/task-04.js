@@ -7,13 +7,13 @@
 3. Оновлюй інтерфейс новим значенням змінної counterValue.
 */
 
-const buttonRefs = {
+const refs = {
   incrementBtn: document.querySelector("[data-action='increment']"),
   decrementBtn: document.querySelector("[data-action='decrement']"),
   counter: document.querySelector("#value"),
 };
 
-const {incrementBtn, decrementBtn, counter } = buttonRefs;
+const { incrementBtn, decrementBtn, counter } = refs;
 
 let counterValue = 0;
 
